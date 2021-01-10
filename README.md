@@ -1,2 +1,2 @@
-# Dournal-backend
-Journal application backend written in D
+# Dournal
+Journal application written in D

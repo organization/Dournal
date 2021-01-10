@@ -1,0 +1,28 @@
+{
+	"fileVersion": 1,
+	"versions": {
+		"botan": "1.12.19",
+		"botan-math": "1.0.3",
+		"colorize": "1.0.5",
+		"diet-ng": "1.7.4",
+		"dlogg": "0.4.1",
+		"eventcore": "0.9.11",
+		"fast": "0.3.5",
+		"hunt": "1.6.7",
+		"hunt-database": "2.1.11",
+		"hunt-entity": "2.6.30",
+		"hunt-extra": "1.0.6",
+		"hunt-net": "0.5.7",
+		"hunt-openssl": "1.0.2",
+		"hunt-sql": "1.4.6",
+		"hunt-validation": "0.3.3",
+		"libasync": "0.8.6",
+		"memutils": "1.0.4",
+		"mir-linux-kernel": "1.0.1",
+		"openssl": "1.1.6+1.0.1g",
+		"stdx-allocator": "2.77.5",
+		"taggedalgebraic": "0.11.18",
+		"vibe-core": "1.11.3",
+		"vibe-d": "0.9.2"
+	}
+}

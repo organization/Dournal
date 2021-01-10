@@ -1,0 +1,15 @@
+{
+	"authors": [
+		"JellyBrick"
+	],
+	"copyright": "Copyright © 2021, JellyBrick",
+	"dependencies": {
+		"dlogg": "~>0.4.1",
+		"hunt-entity": "~>2.6.30",
+		"oauth": "~>0.2.3",
+		"vibe-d": "~>0.9.2"
+	},
+	"description": "Journal application written in D",
+	"license": "GPL-3.0",
+	"name": "dournal"
+}
