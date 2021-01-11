@@ -4,9 +4,10 @@
 	],
 	"copyright": "Copyright © 2021, JellyBrick",
 	"dependencies": {
+		"colorize": "~>1.0.5",
+		"oauth": "~>0.2.3",
 		"dlogg": "~>0.4.1",
 		"hunt-entity": "~>2.6.30",
-		"oauth": "~>0.2.3",
 		"vibe-d": "~>0.9.2"
 	},
 	"description": "Journal application written in D",

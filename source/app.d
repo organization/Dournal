@@ -2,7 +2,6 @@ import std.stdio;
 import std.file;
 import dlogg.log;
 import dlogg.strict;
-import json = vibe.d;
 import argon;
 import config;
 import router;
@@ -15,11 +14,11 @@ public class MainHandler {
         logger.minOutputLevel = LoggingLevel.Notice;
     }
 
-    private class Args: argon.Handler {
+    private class Args : argon.Handler {
         string configFilePath;
 
         this() {
-            Named("config", configFilePath) ('c') ("Config file path");
+            Named("config", configFilePath)('c')("Config file path");
         }
     }
 
@@ -36,6 +35,8 @@ public class MainHandler {
 
         Config config;
         try {
+            import json = vibe.data.json;
+
             auto jsonText = readText(argsParser.configFilePath);
             config = json.deserializeJson!Config(jsonText);
         } catch (Exception e) {
